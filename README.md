@@ -37,7 +37,7 @@ You can choose the compact mode (default), or an "expanded" one, more similar to
 git clone https://github.com/itsmrcx/mbits.git
 
 # Go into the repository
-cd fevela
+cd mbits
 
 # Install dependencies
 npm install
@@ -53,7 +53,7 @@ npm run dev
 git clone https://github.com/itsmrcx/mbits.git
 
 # Go into the repository
-cd fevela
+cd mbits
 
 # Run the docker compose
 docker compose up --build -d
