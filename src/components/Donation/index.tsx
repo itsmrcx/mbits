@@ -13,9 +13,9 @@ export default function Donation({ className }: { className?: string }) {
 
   return (
     <div className={cn('p-4 border rounded-lg space-y-4', className)}>
-      <div className="text-center font-semibold">{t('Enjoying Fevela?')}</div>
+      <div className="text-center font-semibold">{t('Enjoying mBits?')}</div>
       <div className="text-center text-muted-foreground">
-        {t('Your donation helps me maintain Fevela and make it better! 😊')}
+        {t('Your signal keeps the terminal running. Maintain the node. 😊')}
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {[
