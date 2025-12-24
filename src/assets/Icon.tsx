@@ -11,10 +11,12 @@ export default function Icon({ className }: { className?: string }) {
       className={cn('cursor-pointer', className)}
       onClick={() => navigate('home')}
       style={{
-        height: '32px',        /* Keeps it header-sized */
-        width: '32px',
-        borderRadius: '0px',   /* Enforces square terminal look */
-        objectFit: 'contain'
+        height: '100%',        /* Fill the container */
+        width: '100%',         /* Fill the container */
+        minWidth: '48px',      /* Force minimum size */
+        minHeight: '48px',     /* Force minimum size */
+        borderRadius: '0px',   
+        objectFit: 'contain'   /* Keeps the aspect ratio perfect */
       }}
     />
   )
