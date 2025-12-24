@@ -38,11 +38,11 @@
 
     <!-- THE NUCLEAR OPTION: FORCE TITLE CHANGE -->
     <script>
-      document.title = "mBITs";
+      document.title = "mBits";
       const observer = new MutationObserver(function(mutations) {
         mutations.forEach(function(mutation) {
           if (mutation.target.nodeName === 'TITLE') {
-            if (document.title !== "mBITs" && !document.title.includes('mBITs')) {
+            if (document.title !== "mBits" && !document.title.includes('mBits')) {
               document.title = "mBITs";
             }
           }
