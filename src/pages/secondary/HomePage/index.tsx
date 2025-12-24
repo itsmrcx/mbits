@@ -28,7 +28,7 @@ const HomePage = forwardRef(({ index }: { index?: number }, ref) => {
             src="https://blossom.primal.net/e0fcec023496872ee3533deaef6a58fd4502b5f2b7c9b840edcf5a6ebe6386fd.jpg"
             alt="Nostr Network"
             className="rounded-lg max-w-full h-auto"
-            style={{ maxHeight: '180px' }}
+            style={{ maxHeight: '250px' }}
           />
         </div>
 
