@@ -92,7 +92,7 @@ export default {
     'Add an Account': 'Add an Account',
     'More options': 'More options',
     'Add client tag': 'Add client tag',
-    'Show others this was sent via Fevela': 'Show others this was sent via Fevela',
+    'Show others this was sent via mBits': 'Show others this was sent via mBits',
     'Are you sure you want to logout?': 'Are you sure you want to logout?',
     'relay sets': 'relay sets',
     edit: 'edit',
@@ -193,9 +193,9 @@ export default {
     All: 'All',
     Reactions: 'Reactions',
     Zaps: 'Zaps',
-    'Enjoying Fevela?': 'Enjoying Fevela?',
-    'Your donation helps me maintain Fevela and make it better! 😊':
-      'Your donation helps me maintain Fevela and make it better! 😊',
+    'Enjoying mBits?': 'Enjoying mBits?',
+    'Your donation helps me maintain mBits and make it better! 😊':
+      'Your donation helps me maintain mBits and make it better! 😊',
     'Earlier notifications': 'Earlier notifications',
     'Temporarily display this note': 'Temporarily display this note',
     buttonFollowing: 'Following',
@@ -248,7 +248,7 @@ export default {
     Translation: 'Translation',
     Balance: 'Balance',
     characters: 'characters',
-    fevelaTranslateApiKeyDescription:
+    mBitsTranslateApiKeyDescription:
       'You can use this API key anywhere else that supports LibreTranslate. The service URL is {{serviceUrl}}',
     'Top up': 'Top up',
     'Will receive: {n} characters': 'Will receive: {{n}} characters',
