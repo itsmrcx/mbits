@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-    <img src="./resources/logo-light.svg" alt="Fevela Logo" width="400" />
+    <img src="./resources/logo-light.png" alt="mBits Logo" width="400" />
   </picture>
 </div>
 
