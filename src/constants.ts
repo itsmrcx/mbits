@@ -153,33 +153,33 @@ export const MAX_PINNED_NOTES = 10
 
 export const PRIMARY_COLORS = {
   DEFAULT: {
-    name: 'Default',
+    name: 'Matrix Green',
     light: {
-      primary: '0 0% 100%',  // White
-      'primary-hover': '0 0% 90%', // Light Grey on hover
-      'primary-foreground': '0 0% 0%', // Black text on White button
-      ring: '0 0% 100%'
+      primary: '135 100% 50%',          /* NEON GREEN (#00FF41) */
+      'primary-hover': '135 100% 40%',
+      'primary-foreground': '0 0% 0%',  /* Black Text on Green buttons */
+      ring: '135 100% 50%'
     },
     dark: {
-      primary: '0 0% 100%',  // White
-      'primary-hover': '0 0% 90%',
-      'primary-foreground': '0 0% 0%',
-      ring: '0 0% 100%'
+      primary: '135 100% 50%',          /* NEON GREEN (#00FF41) */
+      'primary-hover': '135 100% 40%',
+      'primary-foreground': '0 0% 0%',  /* Black Text on Green buttons */
+      ring: '135 100% 50%'
     }
   },
-  RED: {
-    name: 'Red',
+  WHITE: {
+    name: 'white',
     light: {
-      primary: '0 65% 55%',
-      'primary-hover': '0 65% 65%',
-      'primary-foreground': '0 0% 98%',
-      ring: '0 65% 55%'
+      primary: '0 0% 100%',             /* WHITE Color */
+      'primary-hover': '0 0% 80%',      /* Light Grey on hover */
+      'primary-foreground': '0 0% 0%',  /* Black Text on top of White buttons */
+      ring: '0 0% 100%'
     },
     dark: {
-      primary: '0 65% 55%',
-      'primary-hover': '0 65% 65%',
-      'primary-foreground': '240 5.9% 10%',
-      ring: '0 65% 55%'
+      primary: '0 0% 100%',             /* WHITE Color */
+      'primary-hover': '0 0% 80%',
+      'primary-foreground': '0 0% 0%',  /* Black Text on top of White buttons */
+      ring: '0 0% 100%'
     }
   },
   ORANGE: {
