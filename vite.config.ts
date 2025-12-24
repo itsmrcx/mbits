@@ -1,7 +1,6 @@
 import path from 'path'
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
+import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
@@ -13,8 +12,7 @@ export default defineConfig({
   },
 
   plugins: [
-    vue(),
-    vueJsx(),
+    react(), /* <--- SWITCHED BACK TO REACT */
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
