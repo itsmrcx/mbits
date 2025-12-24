@@ -11,7 +11,7 @@ export default function AboutInfoDialog({ children }: { children: React.ReactNod
 
   const content = (
     <>
-      <div className="text-xl font-semibold">Fevela</div>
+      <div className="text-xl font-semibold">mBits</div>
       <div className="text-muted-foreground">
         A user-friendly Nostr client for exploring relay feeds
       </div>
@@ -21,7 +21,7 @@ export default function AboutInfoDialog({ children }: { children: React.ReactNod
       <div>
         Source code:{' '}
         <a
-          href="https://github.com/dtonon/fevela"
+          href="https://github.com/itsmrcx/mbits"
           target="_blank"
           rel="noreferrer"
           className="text-primary hover:underline"
