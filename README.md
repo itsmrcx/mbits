@@ -10,7 +10,7 @@ mBits is a [Nostr](https://njump.me) social client that gives you back full cont
 
 Experience mBits at [itsmrcx.github.io/mbits](https://itsmrcx.github.io/mbits/)
 
-[![](resources/screenshot.jpg)](https://fevela.me)
+[![](resources/screenshot.png)](https://github.com/itsmrcx/mbits)
 
 ## Features
 
