@@ -34,16 +34,15 @@ const HomePage = forwardRef(({ index }: { index?: number }, ref) => {
 
         {/* Fevela Introduction */}
         <div className="space-y-4 text-base">
-          <h2 className="text-2xl font-bold">About Fevela</h2>
+          <h2 className="text-2xl font-bold">About mBits</h2>
           <p>
-            Fevela is a <strong>Nostr</strong> social client that gives you back full control of
-            your attention and time with a newsreader-like interface. It promotes exploring
-            interesting content over doomscrolling.
+            mBits is a decentralized <span className="font-bold text-accent">Cyberpunk</span> terminal 
+  for the Nostr protocol..
           </p>
 
           <p>
             Unlike traditional social media that's designed to maximize your time on the platform,
-            Fevela respects your autonomy. Browse content deliberately, filter out noise, and move
+            mBits respects your autonomy. Browse content deliberately, filter out noise, and move
             on with your day. No infinite scrolling, no manipulative algorithms or notifications,
             just a clean, efficient way to stay connected with what matters to you.
           </p>
