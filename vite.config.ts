@@ -2,34 +2,15 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
-import { execSync } from 'child_process'
-import packageJson from './package.json'
 
-// --- HELPER FUNCTIONS (REQUIRED FOR BUILD) ---
-const getGitHash = () => {
-  try {
-    return JSON.stringify(execSync('git rev-parse --short HEAD').toString().trim())
-  } catch (error) {
-    return '"unknown"'
-  }
-}
-
-const getAppVersion = () => {
-  try {
-    return JSON.stringify(packageJson.version)
-  } catch (error) {
-    return '"unknown"'
-  }
-}
-
-// --- CONFIGURATION ---
 export default defineConfig({
-  base: '/mbits/', 
-  
-  // These definitions are required by the app code
+  // 1. Set the sub-folder base
+  base: '/mbits/',
+
+  // 2. Hardcode these values to prevent import errors
   define: {
-    'import.meta.env.GIT_COMMIT': getGitHash(),
-    'import.meta.env.APP_VERSION': getAppVersion()
+    'import.meta.env.GIT_COMMIT': JSON.stringify('master'),
+    'import.meta.env.APP_VERSION': JSON.stringify('1.0.0')
   },
 
   plugins: [
@@ -49,12 +30,12 @@ export default defineConfig({
         start_url: '/mbits/',
         icons: [
           {
-            src: '/mbits/pwa-192x192.png',
+            src: 'pwa-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/mbits/pwa-512x512.png',
+            src: 'pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           }
