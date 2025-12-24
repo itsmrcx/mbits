@@ -12,12 +12,13 @@ export default defineConfig({
   },
 
   plugins: [
-    react(), /* <--- SWITCHED BACK TO REACT */
+    react(),
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,jpg,svg}'],
-        cleanupOutdatedCaches: true
+        cleanupOutdatedCaches: true,
+        maximumFileSizeToCacheInBytes: 5000000 /* <--- INCREASED LIMIT TO 5MB */
       },
       manifest: {
         name: 'mBITs',
