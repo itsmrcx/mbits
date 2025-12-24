@@ -25,6 +25,8 @@ const getAppVersion = () => {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/mbits/', // <--- I ADDED THIS LINE HERE (Line 28)
+
   define: {
     'import.meta.env.GIT_COMMIT': getGitHash(),
     'import.meta.env.APP_VERSION': getAppVersion()
@@ -48,44 +50,44 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        name: 'Fevela',
-        short_name: 'Fevela',
+        name: 'mBITs', // Changed from Fevela
+        short_name: 'mBITs', // Changed from Fevela
         icons: [
           {
-            src: '/pwa-512x512.png',
+            src: '/mbits/pwa-512x512.png', // Added /mbits/ prefix
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/pwa-192x192.png',
+            src: '/mbits/pwa-192x192.png', // Added /mbits/ prefix
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/pwa-512x512.png',
+            src: '/mbits/pwa-512x512.png', // Added /mbits/ prefix
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/pwa-192x192.png',
+            src: '/mbits/pwa-192x192.png', // Added /mbits/ prefix
             sizes: '192x192',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/pwa-monochrome.svg',
+            src: '/mbits/pwa-monochrome.svg', // Added /mbits/ prefix
             sizes: '512x512',
             type: 'image/svg+xml',
             purpose: 'monochrome'
           }
         ],
-        start_url: '/',
+        start_url: '/mbits/', // <--- CHANGED FROM '/' TO '/mbits/'
         display: 'standalone',
-        background_color: '#FFFFFF',
-        theme_color: '#FFFFFF',
+        background_color: '#000000', // Changed to Black for your theme
+        theme_color: '#000000',      // Changed to Black for your theme
         description: packageJson.description
       }
     })
