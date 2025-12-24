@@ -29,7 +29,7 @@ export default function AboutInfoDialog({ children }: { children: React.ReactNod
           GitHub
         </a>
         <div className="text-sm text-muted-foreground">
-          If you like Fevela, please consider giving it a star ⭐
+          If you like mBits, please consider giving it a star ⭐
         </div>
       </div>
     </>
