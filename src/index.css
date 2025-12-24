@@ -1,20 +1,20 @@
+/* mBITs - TERMINAL OVERRIDE */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* mBITs - TERMINAL OVERRIDE */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
-
 :root {
   /* MATRIX COLOR PALETTE */
   --c-bg: #000000 !important;
-  --c-text: #00FF41 !important; /* Matrix Green */
+  --c-text: #00FF41 !important;
   --c-text-secondary: #008F11 !important;
   --c-accent: #00FF41 !important;
   --c-border: #003300 !important;
   --c-element-bg: #001100 !important;
   
-  /* Fevela/Tailwind Variable Overrides */
+  /* Tailwind Variable Overrides */
   --background: 0 0% 0%;
   --foreground: 135 100% 50%;
   --card: 0 0% 0%;
@@ -35,7 +35,6 @@
   --input: 120 100% 20%;
   --ring: 135 100% 50%;
   
-  /* FONT */
   --font-base: "Courier New", Courier, monospace !important;
 }
 
@@ -45,10 +44,8 @@ body, #root {
   font-family: "Courier New", Courier, monospace !important;
 }
 
-/* Force Square Edges everywhere */
 * { border-radius: 0px !important; }
 
-/* Buttons */
 button {
   background-color: #00FF41 !important;
   color: #000000 !important;
@@ -57,21 +54,18 @@ button {
   font-weight: bold;
 }
 
-/* Cards/Posts/Notes */
 div[class*="card"], article, .border {
   background-color: #001100 !important;
   border: 1px solid #003300 !important;
   border-left: 2px solid #00FF41 !important;
 }
 
-/* Inputs */
 input, textarea {
   background-color: #000000 !important;
   border: 1px solid #00FF41 !important;
   color: #00FF41 !important;
 }
 
-/* Links/Text */
 a {
   color: #00FF41 !important;
   text-decoration: underline;
