@@ -25,7 +25,7 @@ const HomePage = forwardRef(({ index }: { index?: number }, ref) => {
         {/* Hero Image */}
         <div className="flex justify-center">
           <img
-            src="https://blossom.primal.net/e0fcec023496872ee3533deaef6a58fd4502b5f2b7c9b840edcf5a6ebe6386fd.jpg"
+            src="https://blossom.primal.net/1a24c8c863e2c53e05d7c19db33c1a72f82c23f8704eca2181563c9e2c3801be.gif"
             alt="Nostr Network"
             className="rounded-lg max-w-full h-auto"
             style={{ maxHeight: '250px' }}
