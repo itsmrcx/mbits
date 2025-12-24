@@ -25,7 +25,7 @@ const HomePage = forwardRef(({ index }: { index?: number }, ref) => {
         {/* Hero Image */}
         <div className="flex justify-center">
           <img
-            src="https://njump.me/njump/static/home/home04.png"
+            src="https://blossom.primal.net/e0fcec023496872ee3533deaef6a58fd4502b5f2b7c9b840edcf5a6ebe6386fd.jpg"
             alt="Nostr Network"
             className="rounded-lg max-w-full h-auto"
             style={{ maxHeight: '180px' }}
