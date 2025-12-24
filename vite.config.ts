@@ -1,13 +1,12 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  // 1. Set the sub-folder base
   base: '/mbits/',
-
-  // 2. Hardcode these values to prevent import errors
+  
   define: {
     'import.meta.env.GIT_COMMIT': JSON.stringify('master'),
     'import.meta.env.APP_VERSION': JSON.stringify('1.0.0')
@@ -15,6 +14,7 @@ export default defineConfig({
 
   plugins: [
     vue(),
+    vueJsx(), /* <--- THIS WAS MISSING AND CAUSED THE CRASH */
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
