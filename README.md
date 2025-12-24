@@ -14,7 +14,7 @@ Experience mBits at [itsmrcx.github.io/mbits](https://itsmrcx.github.io/mbits/)
 
 ## Features
 
-Fevela implements a "grouped notes" design in the feed, typical of the RSS clients, where content is grouped by author, and only the last post is displayed. This prevents very active users from taking up all the space, reducing visibility for others.
+mBits implements a "grouped notes" design in the feed, typical of the RSS clients, where content is grouped by author, and only the last post is displayed. This prevents very active users from taking up all the space, reducing visibility for others.
 
 You have many other tools to explore your network in a healthy way:
 
