@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'path' // <--- THIS WAS MISSING
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -18,7 +18,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,jpg,svg}'],
         cleanupOutdatedCaches: true,
-        maximumFileSizeToCacheInBytes: 5000000 /* <--- INCREASED LIMIT TO 5MB */
+        maximumFileSizeToCacheInBytes: 5000000 
       },
       manifest: {
         name: 'mBITs',
