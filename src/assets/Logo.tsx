@@ -7,10 +7,10 @@ export const Logo = (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
       alt="mBit Logo"
       {...props}
       style={{
-        height: '40px',
-        width: 'auto',
+        height: '60px',       /* Made significantly larger */
+        width: '60px',        /* Made significantly larger */
         borderRadius: '0px', 
-        border: '1px solid #00FF41', /* Adds a matrix border to the logo */
+        objectFit: 'contain',
         ...props.style
       }}
     />
