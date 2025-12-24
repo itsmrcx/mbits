@@ -35,6 +35,25 @@
       property="og:image"
       content="https://itsmrcx.github.io/mbits/pwa-512x512.png"
     />
+
+    <!-- THE NUCLEAR OPTION: FORCE TITLE CHANGE -->
+    <script>
+      document.title = "mBITs";
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.target.nodeName === 'TITLE') {
+            if (document.title !== "mBITs" && !document.title.includes('mBITs')) {
+              document.title = "mBITs";
+            }
+          }
+        });
+      });
+      observer.observe(document.documentElement, {
+        subtree: true,
+        childList: true,
+        characterData: true
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
