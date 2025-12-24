@@ -108,7 +108,7 @@ export const LN_INVOICE_REGEX = /(ln(?:bc|tb|bcrt))([0-9]+[munp]?)?1([02-9ac-hj-
 export const YOUTUBE_URL_REGEX =
   /https?:\/\/(?:(?:www|m)\.)?(?:youtube\.com\/(?:watch\?[^#\s]*|embed\/[\w-]+|shorts\/[\w-]+|live\/[\w-]+)|youtu\.be\/[\w-]+)(?:\?[^#\s]*)?(?:#[^\s]*)?/gi
 
-export const FEVELA_PUBKEY = '8adab951da7d88367ed86731eeb7b4e2f8582efaac81a6459a5d580213b89a6e'
+export const FEVELA_PUBKEY = '916b7aca250f43b9f842faccc831db4d155088632a8c27c0d140f2043331ba57'
 export const DEV_PUBKEY = '916b7aca250f43b9f842faccc831db4d155088632a8c27c0d140f2043331ba57'
 
 export const NIP_96_SERVICE = [
