@@ -8,9 +8,9 @@
 
 mBits is a [Nostr](https://njump.me) social client that gives you back full control of your attention and time with a newsreader-like interface; it promotes exploring of interesting content, over doomscrolling.
 
-Experience mBits at [itsmrcx.github.io/mbits](https://itsmrcx.github.io/mbits/)
+Experience mBits at https://itsmrcx.github.io/mbits/
 
-[![](resources/screenshot.png)](https://github.com/itsmrcx/mbits)
+[![](resources/screenshot.png)]
 
 ## Features
 
