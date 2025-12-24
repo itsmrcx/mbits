@@ -6,9 +6,9 @@
 
 ---
 
-Fevela is a [Nostr](https://njump.me) social client that gives you back full control of your attention and time with a newsreader-like interface; it promotes exploring of interesting content, over doomscrolling.
+mBits is a [Nostr](https://njump.me) social client that gives you back full control of your attention and time with a newsreader-like interface; it promotes exploring of interesting content, over doomscrolling.
 
-Experience Fevela at [https://fevela.me](https://fevela.me)
+Experience mBits at [itsmrcx.github.io/mbits](https://itsmrcx.github.io/mbits/)
 
 [![](resources/screenshot.jpg)](https://fevela.me)
 
@@ -63,14 +63,14 @@ After finishing, access: http://localhost:8089
 
 ## Credits
 
-Fevela is a fork of the great [Jumble](https://github.com/CodyTseng/jumble)
+mBits is a fork of the great [Fevela](https://github.com/dtonon/fevela)
 
 ## Donate
 
 If you like this project, you can buy me a coffee :)
 
-- **Lightning:** ⚡️ tips@dtonon.com ⚡️
-- **Bitcoin:** bc1qm6ttjjlq7zqwqmtzq3lqzujr3c9cr53l6097pt
+- **Lightning:** ⚡️ deadpanlimit469@walletofsatoshi.com ⚡️
+- **Bitcoin:** bc1p6lzywzaqhypkwny0wyucw0rlmr3sk66xemrpf6xcy4z7rl237awqejkg6j
 
 ## License
 
