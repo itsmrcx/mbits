@@ -155,16 +155,16 @@ export const PRIMARY_COLORS = {
   DEFAULT: {
     name: 'Default',
     light: {
-      primary: '338 77% 53%',
-      'primary-hover': '338 77% 62%',
-      'primary-foreground': '0 0% 98%',
-      ring: '338 77% 53%'
+      primary: '0 0% 100%',  // White
+      'primary-hover': '0 0% 90%', // Light Grey on hover
+      'primary-foreground': '0 0% 0%', // Black text on White button
+      ring: '0 0% 100%'
     },
     dark: {
-      primary: '338 77% 53%',
-      'primary-hover': '338 77% 62%',
-      'primary-foreground': '0 0% 98%',
-      ring: '338 77% 53%'
+      primary: '0 0% 100%',  // White
+      'primary-hover': '0 0% 90%',
+      'primary-foreground': '0 0% 0%',
+      ring: '0 0% 100%'
     }
   },
   RED: {
