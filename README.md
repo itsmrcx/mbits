@@ -34,7 +34,7 @@ You can choose the compact mode (default), or an "expanded" one, more similar to
 
 ```bash
 # Clone this repository
-git clone https://github.com/dtonon/fevela.git
+git clone https://github.com/itsmrcx/mbits.git
 
 # Go into the repository
 cd fevela
@@ -50,7 +50,7 @@ npm run dev
 
 ```bash
 # Clone this repository
-git clone https://github.com/dtonon/fevela.git
+git clone https://github.com/itsmrcx/mbits.git
 
 # Go into the repository
 cd fevela
